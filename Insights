@@ -1,1 +1,26 @@
+Inventory Data (95% Service Level, ~95% Accuracy)
 
+| Category    | Avg Daily Demand | Std Dev | Lead Time (days) | Z (Service Level) | Safety Stock | Reorder Point |
+| ----------- | ---------------- | ------- | ---------------- | ----------------- | ------------ | ------------- |
+| Beauty      | 3.78             | 2.40    | 7                | 1.645             | 10.44        | 36.90         |
+| Clothing    | 3.85             | 2.46    | 7                | 1.645             | 10.71        | 37.68         |
+| Electronics | 3.877            | 2.53    | 7                | 1.645             | 11.03        | 38.16         |
+
+Inventory Data (99% Service Level, ~99% Accuracy)
+
+| Category    | Avg Daily Demand | Std Dev | Lead Time (days) | Z (Service Level) | Safety Stock | Reorder Point |
+| ----------- | ---------------- | ------- | ---------------- | ----------------- | ------------ | ------------- |
+| Beauty      | 3.78             | 2.40    | 7                | 2.326             | 14.77        | 41.23         |
+| Clothing    | 3.85             | 2.46    | 7                | 2.326             | 15.15        | 42.12         |
+| Electronics | 3.877            | 2.53    | 7                | 2.326             | 15.60        | 42.73         |
+
+Summary of Inventory Data
+
+Demand is similar across Beauty, Clothing, and Electronics, around 3.8 units/day.
+Electronics demand is slightly more variable, requiring a bit more safety stock than the other categories.
+Safety stock increases with service level:
+At 95% service level → 10–11 units
+At 99% service level → 15–16 units
+Reorder points rise with safety stock to ensure stock availability during lead time.
+Overall, higher service levels provide better protection against stockouts, but require more inventory.
+This data helps balance product availability with inventory efficiency.
