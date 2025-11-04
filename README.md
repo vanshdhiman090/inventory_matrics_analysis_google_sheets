@@ -4,11 +4,11 @@ A simple, reusable inventory management tool built with Google Sheets and Google
 
 # Project Overview
 
-This project demonstrates how to track inventory health and plan for demand variability using simple formulas. It covers:
-Days of Supply – How long current stock will last based on average daily demand.
-Inventory Turns – How frequently inventory is cycled or sold over a period.
-Safety Stock – A buffer to prevent stockouts during lead time.
-Reorder Point – The inventory level at which a new order should be placed.
+This project shows how to keep track of inventory and prepare for changes in demand using easy formulas. It includes:
+Days of Supply – How many days your current stock will last.
+Inventory Turns – How often your stock gets sold and replaced.
+Safety Stock – Extra stock to prevent running out during delivery delays.
+Reorder Point – The stock level at which you should order more.
 
 ### Formulas used:
 
