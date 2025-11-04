@@ -10,13 +10,13 @@ Inventory Turns – How frequently inventory is cycled or sold over a period.
 Safety Stock – A buffer to prevent stockouts during lead time.
 Reorder Point – The inventory level at which a new order should be placed.
 
-# Formulas used:
+### Formulas used:
 
 Safety Stock = Z × Std Dev of Demand × √Lead Time
 Reorder Point = (Avg Daily Demand × Lead Time) + Safety Stock
 
 
-# Tools Used:
+### Tools Used:
 
 Google Sheets – For data storage, calculations, and dynamic updates.
 Sheets AI – To automate calculations and insights.
